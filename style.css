@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+}
+
+#menu{
+  
+  width:100%;
+  background-color: blue;
+  padding: 20px;
+  position:fixed;
+  z-index:1;
+}
+
+#menu a{
+  color:black;
+  display: inlign-block;
+  margin-right: 15px;
+  padding: 20px;
+  text-decoration:none;
+}
+
+#menu a:hover{
+  background-color: red;
+}
+
+.corpo{
+  text-align:center;
+  margin:auto;
+  width:800px;
+}
+
+#conteudo{
+  width:300px;
+  height:300px;
+  position:absolute;
+  z-index:0;
+  margin-top:50px;
+}
+
+
+#conteudo2{
+  width:300px;
+  position:absolute;
+  z-index:0;
+  margin-top:50px;
+  left:500px;
+  top:-50px;
+}
+
+#rodape{
+  width:100%;
+  background-color: blue;
+  padding: 20px;
+  position:fixed;
+  z-index:1;
+  bottom:0;
+  left:-20px;
+}
+
